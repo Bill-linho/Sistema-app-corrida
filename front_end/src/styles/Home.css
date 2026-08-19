@@ -1,0 +1,24 @@
+.container {  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: 100px 1.4fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "insider Header"
+    "insider Home";
+}
+
+.Header { grid-area: Header; }
+
+.insider { grid-area: insider; }
+
+.Home {  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1px 2.8fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "."
+    ".";
+  grid-area: Home;
+}
