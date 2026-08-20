@@ -1,18 +1,14 @@
-import CardPersonal from "../components/CardPersonal"
+import Area from "../components/Area"
+import Aside from "../components/aside"
+import Header from "../components/Header"
 import "../styles/Home.css"
 
 function Home() {
   return (
     <div className="container">
-      <div className="Header"> 
-      <button>login</button>
-      </div>
-      <div className="insider"> 
-        App Saúde
-      </div>
-      <div className="Home"> 
-        < CardPersonal />
-      </div>
+      <Header />
+      <Aside />
+      <Area />
     </div>
   )
 }
